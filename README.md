@@ -6,6 +6,13 @@ The best way is to add this library as a submodule in any other project requirin
 cd <other_project>
 git submodule add git@github.com:mradamcollins/AC-kicad-library.git 
 ```
+Then add AC-kicad-libarry as a project specific library in Kicad manage libraries tab
+
+### Updating the submodule
+Submodules are fixed by nature, to manual update the library use:
+```
+git submodule update --remote
+```
 
 ## Using easyeda2kicad scripts
 to install:
