@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AC-kicad-library")(type "KiCad")(uri "${AC_KICAD_LIBRARY_DIR}/AC-kicad-library.kicad_sym")(options "")(descr ""))
+)
