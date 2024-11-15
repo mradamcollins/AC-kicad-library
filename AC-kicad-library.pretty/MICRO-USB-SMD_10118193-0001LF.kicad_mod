@@ -469,7 +469,8 @@
 		(remove_unused_layers no)
 		(uuid "bc779fd4-40fb-40c8-a070-92f140e0163a")
 	)
-	(model "${AC_KICAD_LIBRARY_DIR}/AC-kicad-library.3dshapes/MICRO-USB-SMD_10118193-0001LF.wrl"
+	(model "${KIPRJMOD}/AC-kicad-library/AC-kicad-library.3dshapes/MICRO-USB-SMD_10118193-0001LF.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -480,8 +481,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${AC_KICAD_LIBRARY_DIR}/AC-kicad-library.3dshapes/MICRO-USB-SMD_10118193-0001LF.step"
-		(hide yes)
+	(model "${KIPRJMOD}/AC-kicad-library/AC-kicad-library.3dshapes/MICRO-USB-SMD_10118193-0001LF.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
