@@ -121,8 +121,8 @@
 		(uuid "3288cddc-72e5-4ffc-a9db-cc019a21be71")
 	)
 	(fp_rect
-		(start -1 -0.75)
-		(end 1 0.75)
+		(start -1.25 -1)
+		(end 1.25 1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -154,8 +154,8 @@
 		(uuid "d933e672-8186-4461-9109-fa1268486185")
 	)
 	(fp_circle
-		(center -1 -0.75)
-		(end -1 -1.25)
+		(center -1.25 -1)
+		(end -1.25 -1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -165,8 +165,8 @@
 		(uuid "48d451f5-b447-4978-b423-e28e41741f76")
 	)
 	(fp_circle
-		(center -1 0.75)
-		(end -1 1.25)
+		(center -1.25 1)
+		(end -1.25 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -176,8 +176,8 @@
 		(uuid "6a6bd3aa-a8d2-4982-9e72-6f1e5f6dffad")
 	)
 	(fp_circle
-		(center 1 -0.75)
-		(end 1 -1.25)
+		(center 1.25 -1)
+		(end 1.25 -1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -187,8 +187,8 @@
 		(uuid "262d0754-e959-440e-a330-6cff7ce1e2c0")
 	)
 	(fp_circle
-		(center 1 0.75)
-		(end 1 1.25)
+		(center 1.25 1)
+		(end 1.25 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -210,7 +210,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 1 -0.75)
+		(at 1.25 -1)
 		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -218,7 +218,7 @@
 		(uuid "443e3978-f824-4d01-9804-917be092f6c1")
 	)
 	(pad "2" thru_hole circle
-		(at 1 0.75)
+		(at 1.25 1)
 		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -226,7 +226,7 @@
 		(uuid "ad8ad46c-0054-4373-9e7a-d1d1a314b380")
 	)
 	(pad "3" thru_hole circle
-		(at -1 -0.75)
+		(at -1.25 -1)
 		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -234,11 +234,22 @@
 		(uuid "5b629796-ba0d-4748-9f8f-99cda5665675")
 	)
 	(pad "4" thru_hole circle
-		(at -1 0.75)
+		(at -1.25 1)
 		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2b24ee45-d1f8-47ab-94ab-e515d7489c75")
+	)
+	(model "${KIPRJMOD}/AC-kicad-library/AC-kicad-library.3dshapes/StepperMotor_4.7mm_Sanyo_ultra-mini-Part.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
