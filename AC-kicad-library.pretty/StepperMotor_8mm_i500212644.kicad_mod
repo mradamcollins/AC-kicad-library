@@ -68,6 +68,46 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -4.65 -0.45)
+		(end -4.65 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35f0fc27-71c1-44db-9ad9-4cd7c46b8ed1")
+	)
+	(fp_line
+		(start -4.65 0)
+		(end -3.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87e75720-f604-4fd7-9c3c-5ed9eac555f0")
+	)
+	(fp_line
+		(start 4.65 -0.4)
+		(end 4.65 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e96f16e1-1755-44f9-ac8e-cf226101140d")
+	)
+	(fp_line
+		(start 4.65 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99df3009-513a-4615-a580-05dd80fead85")
+	)
+	(fp_line
 		(start -4.65 0)
 		(end 8.55 0)
 		(stroke
@@ -141,6 +181,58 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "f7dbeb70-87b3-480d-ab6b-4547564ea034")
+	)
+	(fp_text user "A-"
+		(at 0.95 -1.15 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "014cdf5c-314c-4098-8fec-82819a84cd55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A+"
+		(at 0.95 2 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2e6320c3-921e-4137-a8f5-ca8cec13ad8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B+"
+		(at 1.85 0.4 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e9afe8a-e6c3-4046-95e3-4ca979017d39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B-"
+		(at 1.85 -2.45 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "51e66a59-e87d-40e5-9e1a-036a4120767f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.35 0)
