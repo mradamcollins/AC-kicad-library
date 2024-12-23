@@ -396,15 +396,15 @@
 		(remove_unused_layers no)
 		(uuid "23217c68-b775-4c39-9802-8a6524d730f7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles.wrl"
+	(model "${KIPRJMOD}/AC-kicad-library/AC-kicad-library.3dshapes/EC11E-nonSW.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 7.5 -2.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )
